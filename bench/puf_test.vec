@@ -1,0 +1,22 @@
+; RADIX specifies the number of bits of each vector
+RADIX 1 4
+
+; VNAME assigns name to your vector
+VNAME IN_SIG CH[0:3]
+
+; IO specifies the direction (input/output) of a vector
+IO I I
+
+; VIH and VIL specifies input high voltage and low voltage respectively 
+VIH 1.2
+VIL 0.0
+
+; PERIOD, TRISE and TFALL specifies the period, rising time and falling time
+TUNIT 1ns
+PERIOD 1.2
+TRISE 0.03
+TFALL 0.03
+
+; Tabular vector data
+1 f
+1 1
